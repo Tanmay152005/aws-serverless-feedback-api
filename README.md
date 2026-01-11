@@ -23,11 +23,13 @@ Example:
 curl -x POST http://<api-id>.execute-api.<region>.amazonaws.com/prod/feedback \
 - H "Content-Type: application/json" \
 - d '{"user":"tanmay","feedback":"Great service"}'
+```
 
 ### GET /feedback
 Retrieves all stored feedback
+```bash
 curl https://<api-id>.execute-api.<region>.amazonaws.com/prod/feedback
-
+```
 ## ARCHITECTURE
 Client -> API Gateway -> AWS Lambda -> DynamoDB
 
