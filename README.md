@@ -20,9 +20,9 @@ A production-ready serverless backend built using AWS Lambda, API Gateway(HTTP A
 
 Example:
 ```bash 
-curl -x POST http://<api-id>.execute-api.<region>.amazonaws.com/prod/feedback \
-- H "Content-Type: application/json" \
-- d '{"user":"tanmay","feedback":"Great service"}'
+curl -X POST http://<api-id>.execute-api.<region>.amazonaws.com/prod/feedback \
+-H "Content-Type: application/json" \
+-d '{"user":"tanmay","feedback":"Great service"}'
 ```
 
 ### GET /feedback
