@@ -37,3 +37,8 @@ Client -> API Gateway -> AWS Lambda -> DynamoDB
 - Authentication (JWT/IAM)
 - Pagination for GET API
 - Filtering and sorting feedback
+
+## Maintenance
+- Upgraded Lambda Runtime to Python 3.13
+    in response to AWS deprecation notice
+- Validated via Postman API testing and DynamoDB verification
