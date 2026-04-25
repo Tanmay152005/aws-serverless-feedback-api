@@ -1,3 +1,6 @@
+#Runtime: Python 3.13
+#Upgraded from Python 3.10 to Python 3.13 on April 26 
+#Tested via Postman and verified in DynamoDb
 import json
 import uuid
 import boto3
